@@ -2,54 +2,83 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
 body {
   font-family: Arial;
   padding: 20px;
   background: #f1f1f1;
 }
- /* Header/Blog Title */
+
+/* Header/Blog Title */
 .header {
   padding: 30px;
-  font-size: 20px;
-  text-align: Left;
+  font-size: 40px;
+  text-align: center;
   background: white;
 }
 
- .button {
-  background-color: #008CBA;
-  border: none;
-  color: white;
-  width: 50vw;
-  height: 50px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 0 auto;
-  cursor: pointer;
-  display: block;
-  border: 1px solid black;
-  transition-duration: 1.0s;
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
 }
-.button:hover {
-  background-color: white;}
-  .card {
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
    background-color: white;
    padding: 20px;
    margin-top: 20px;
 }
+
+/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
 </style>
-<title>OnlyFans</title></time>
-<link rel="icon" href="images/favicon.jpg">
 </head>
 <body>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     <!--header area -->
     <div class="header">
@@ -135,21 +164,116 @@ body {
         <p>Both of these servers require for your account to be whitelisted, please contact to be added.</p>
       </div>
 >>>>>>> parent of 83fb39c (Update index.html)
-
-<div>
-<h3>60% OFF! $4.20 total for 69 days</h3>
-<input type="button" class="button" value="SUBSCRIBE FOR $4.20" onClick="javascript:window.open('view_content.html', '_blank');">
-
-
+=======
+<div class="header">
+    <img src="images/logo_wordart.png" width="10%" height="10%">
 </div>
-    </div>
-    <div class="row">
-      <div class="card">
-        <h2 style="text-align: center;">SUBSCRIBE TO UNLOCK CONTENT</h2>
-        <img src="images/of_locked.png"style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
+>>>>>>> parent of 4d3829c (Add files via upload)
 
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+        <a id="post_Money_Moves"></a>
+        <h2>Money Moves</h2>
+        <h5>April 17, 2021</h5>
+        <img src="money_moves.gif"style="height:300px;">
+        <p>Get that paper bossssss</p>
+      </div>
     
-    
+    <div class="card">
+      <a id="post_World_Update_April_10_2021"></a>
+        <h2>World Update April 10, 2021</h2>
+        <h5>April 10, 2021</h5>
+        <img src="images/World_Update_April_10_2021_courtOutside.png"style="height:300px;"><img src="images/World_Update_April_10_2021_courtInside.png"style="height:300px;">
+        <p>This is the first building that we have built, it has been renovated several times. It features a courtroom and netherportal in the basement as well as a beacon integrated into the roofline.</p>
+        <img src="images/World_Update_April_10_2021_DisalaSenaraOutside.png"style="height:300px;"><img src="images/World_Update_April_10_2021_DisalaSenaraInside.png"style="height:300px;">
+        <p>This is Senara and Disala's house, it features a modern house design with a beautiful interior with a view to the ocean.</p>
+        <img src="images/World_Update_April_10_2021_elwinOutside.png"style="height:300px;"><img src="images/World_Update_April_10_2021_elwinInside.png"style="height:300px;">
+        <p>This is Elwin's house, design and built by Disala. It has a cozy woden interior with lots of room to expand. It has an amazing farm and advanced elevator system.</p>
+        <img src="images/World_Update_April_10_2021_mcDonalds.png"style="height:300px;"><img src="images/World_Update_April_10_2021_tradingCenter.png"style="height:300px;">
+        <p>The McDonalds features 3 full level butchers with a drivethru, and it is complemented by the villager trading post next door for all other villigers which helps provide us with resourses.</p>
+        <img src="images/World_Update_April_10_2021_giantPortal.png"style="height:300px;"><img src="images/World_Update_April_10_2021_fishinglodge.png"style="height:300px;">
+        <p>To the left a temple with a massive nether portal for quick travel. The picture to the right is a house Disala built for his brother.</p>
+        <img src="images/World_Update_April_10_2021_aribsdirt.png"style="height:300px;"><img src="images/World_Update_April_10_2021_hassan.png"style="height:300px;">
+        <p>This is a picture of Arib's dirt. The next picture shows Hassan's amazing cabin built from quartz.</p>
+      </div>
+
+
+    <div class="card">
+        <a id="post_Using_/home"></a>
+        <h2>Using /home</h2>
+        <h5>Jan 1, 1999</h5>
+        <img src="images/Using_home_img1.png"style="height:300px;">
+        <p>For everyones convience a plugin called <a href="https://www.spigotmc.org/resources/%E3%80%90ultimatehomes%E3%80%91-highly-configurable-player-sethome-system-1-8-1-16-x.64210/">UltimateHomes</a> has been installed.</p>
+        <p>As per thier website, the plugin</p>
+        <blockquote>UltimateHomes lets players create their own personal warps (called homes) in the world that they can teleport back to at any time with a command. The plugin comes with many customization features like limits, warmups, and more to fit into your server seamlessly.</blockquote>
+        <p>Here are a list of the avliable commands as well as how they work.</p>
+        <br>
+        <h3>/sethome [name]</h3>
+        <p> - Use this command to set the location of a home</p>
+        <p> - Example of command: /sethome beach</p>
+        <p> - Example sets your current location as a home locational called 'beach'</p>
+        <br>
+        <h3>/home [name]</h3>
+        <p> - Use this command to go to alocation of a home</p>
+        <p> - Example of command: /home beach</p>
+        <p> - Example takes you to the location of a home called 'beach'</p>
+        <br>
+        <h3>/delhome [name]</h3>
+        <p> - Use this command to delete one of your saved locations ( works from anywhere in the map)</p>
+        <p> - Example of command: /delhome beach</p>
+        <p> - Example deletes the location save of a home called 'beach'</p>
+        <br>
+        <h3>/homes</h3>
+        <p> - Use this command lists all of your saved locations.</p>
+      </div>
+
+    <div class="card">
+        <a id="post_Minecraft_Server_Info_1"></a>
+        <h2>Minecraft Server Info 1</h2>
+        <h5>April 10, 2021</h5>
+        <img src="images/Minecraft_Server_Info_1_img1.png"style="height:200px;">
+        <p>There are two servers, one survival and one creative. Both currently running 1.16.5</p>
+        <br>
+        <p>People are mainly intrested in the survival one so I will bring up a few points.</p>
+        <p> - Cheats are disabled for everyone.</p>
+        <p> - Ultimate Homes aka teleport to home is installed, <a href="#post_Using_/home">Click here to learn how to use it.</a></p>
+        <p> - The server is backedup regularly and will be restored to a previous version if the circumstances dictate it.</p>
+        <br>
+        <p>The ip addresses for these servers are as follows:</p>
+        <p> Survival:  ott.stefantodorovic.com:420</p>
+        <p> creative:  ott.stefantodorovic.com:421</p>
+        <br> 
+        <p>Both of these servers require for your account to be whitelisted, please contact to be added.</p>
+      </div>
+
+
+
+    <div class="card">
+      <a id="post_First_Update"></a>
+      <h2>First Update</h2>
+      <h5>April 9, 2021</h5>
+      <p>Just started this website, all the code was coppied from <a href="https://www.w3schools.com">w3schools.com</a>.</p>
     </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <p>This website is very image heavy, it will be archived in the future so that only a small amount of images need to load at a time, until them I'm just gonna be lazy and I hope your internet is good.</p>
+    </div>
+    
+    <div class="card">
+      <h3>Important links</h3>
+      <div class="fakeimg"><a href="#">Discord Server</a></div><br>
+      <div class="fakeimg"><a href="#post_Minecraft_Server_Info_1">Minecraft Server IP Info</a></div><br>
+      <div class="fakeimg"><a href="#post_Using_/home">Using the /home command</a></div><br>
+      <div class="fakeimg"><a href="#post_World_Update_April_10_2021">Latest World Update</a></div><br>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <img src="images/footer_eyes.png" width="10%" height="10%">
+</div>
+
 </body>
-</html> 
+</html>
